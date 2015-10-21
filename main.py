@@ -15,7 +15,7 @@ with open('quotes.json') as data_file:
 def main():
     logging.basicConfig(
         format='%(asctime)s - %(name)s - %(levelname)s - %(message)s')
-    bot = telegram.Bot(token='HERE GOES THE TOKEN')
+    bot = telegram.Bot(token='HERE GOES THE TOKEN!')
 
     try:
         LAST_UPDATE_ID = bot.getUpdates()[-1].update_id
