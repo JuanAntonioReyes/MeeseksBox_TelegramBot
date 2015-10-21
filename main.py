@@ -53,11 +53,10 @@ def main():
 
 
 def quote():
-    return random.choice(quotes)
-	docnumber = random.randint(0,)
-    if docnumber == 0:
+    character = random.randint(0,1)
+    if character == 0:
         return "Rick: " + random.choice(rick)
-    elif docnumber == 1:
+    elif character == 1:
         return "Morty: "  + random.choice(morty)
 
 if __name__ == '__main__':
