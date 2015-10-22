@@ -1,6 +1,8 @@
 # Meeseeks Box - Telegram Bot
 TelegramBot that returns random gif or quotes from the cartoon "Rick and Morty" (&copy; Adult Swim)
 
+Bot avalaible (Sometimes) at [meeseeksbox_bot] (https://telegram.me/meeseeksbox_bot)
+
 Modified from the code of [NickCage-TelegramBot](https://github.com/dobladov/NickCage-TelegramBot) by [Daniel Doblado](https://github.com/dobladov) and the quote selection from [Doctor Who Chat Telegram-Bot](https://github.com/Mangu93/DWChatTelebot) by [Adrian Marin](https://github.com/Mangu93)
 
 ## Install
