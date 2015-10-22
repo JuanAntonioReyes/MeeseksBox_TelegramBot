@@ -8,9 +8,9 @@ import json
 from giphypop import translate
 
 with open('quotes.json') as data_file:
-    quotes = json.load(data_file)
-    rick = quotes["Rick"]
-    morty = quotes["Morty"]
+	quotes = json.load(data_file)
+	rick = quotes["Rick"]
+	morty = quotes["Morty"]
 	beth = quotes["Beth"]
 	jerry = quotes["Jerry"]
 	summer = quotes["Summer"]
@@ -57,18 +57,19 @@ def main():
 
 
 def quote():
-    character = random.randint(0,5)
-    if character == 0:
-        return "Rick: " + random.choice(rick)
-    elif character == 1:
-        return "Morty: "  + random.choice(morty)
+	character = random.randint(0, 5)
+	
+	if character == 0:
+		return "Rick: " + random.choice(rick)
+	elif character == 1:
+		return "Morty: "  + random.choice(morty)
 	elif character == 2:
-        return "Beth: "  + random.choice(beth)
+		return "Beth: "  + random.choice(beth)
 	elif character == 3:
-        return "Jerry: "  + random.choice(jerry)
+		return "Jerry: "  + random.choice(jerry)
 	elif character == 4:
-        return "Summer: "  + random.choice(summer)
-	else
+		return "Summer: "  + random.choice(summer)
+	else:
 		return random.choice(extra)
 
 if __name__ == '__main__':
